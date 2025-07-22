@@ -139,7 +139,7 @@ Experimental results show that, compared to existing methods, the proposed appro
 
                 <div class="content has-text-justified">
                     <p>
-                        Overview of Spatial and Semantic Sensitive Imitation Learning Model (SSI). This model predicts 7-dimensional robotic arm actions based on input images and robot states. The architecture are divided into two main parts: the lower part illustrates the process of generating and distilling successful episodes using the general pre-trained robotic arm operation model (OpenVLA) to construct a demonstration dataset, while the upper part presents the model structure. The images and robot states are independently processed through separate encoders before being fed into the diffusion model. The diffusion model consists of a Transformer Encoder and a Transformer Decoder: the encoder generates latent embeddings, while the decoder takes noisy actions as input, performs cross-attention with the latent embeddings produced by the encoder, and ultimately outputs the predicted noise.
+                      Overview of Spatial and Semantic Sensitive Imitation Learning Model (SSI).} This model predicts 7-dimensional robotic arm actions based on input images and robot states. The architecture are divided into two main parts: the lower part illustrates the process of generating and distilling successful episodes using the general pre-trained robotic arm operation model (OpenVLA) to construct a demonstration dataset, while the upper part presents the model structure. The images and robot states are processed through MDAM Module before being fed into the diffusion model. The diffusion model consists of a Transformer Encoder and a Transformer Decoder: the encoder generates latent embeddings, while the decoder takes noisy actions as input, performs cross-attention with the latent embeddings produced by the encoder, and ultimately outputs the predicted noise.
                     </p>
                 </div>
             </div>
@@ -157,7 +157,7 @@ Experimental results show that, compared to existing methods, the proposed appro
               <img src="./static/images/Dynamic_Attention_Feature_Compression_Module.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
             </p>
             <p>
-                  We conduct 4 motivating experiments that illustrate the benefits of learning within Model Trees. In each experiment, we train a linear classifier to predict the classes a ViT model was fine-tuned on.
+              Overview of Multi-Modal Dynamic Attention Modulation Module.
             </p>
         </div>
       </div>
