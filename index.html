@@ -172,11 +172,7 @@ Experimental results show that, compared to existing methods, the proposed appro
                 <div class="content">
                     <div class="level-set has-text-justified">
                         <p>
-                            We propose <em>Deep Linear Probe Generators</em> (<strong>ProbeGen</strong>) for learning better probes. ProbeGen optimizes a
-                            deep generator module limited to linear expressivity, that shares information between the
-                            different probes. It then observes the responses from all probes, and trains an MLP classifier on
-                            them. While simple, we demonstrate it greatly enhances probing methods, and also outperforms
-                            other approaches by a large margin.
+                            To comprehensively evaluate the influence of different input modalities and the MDAM module on the model's performance, we conducted a series of ablation experiments in the simulation environment of the "insert insulated terminal" task (Fig.\ref{fig:robot_scenario}). Specifically, we compared the model's performance across five configurations: (1) the baseline model; (2) using only semantic features; (3) using only depth features; (4) using both semantic and depth features without the MDAM module; and (5) using both semantic and depth features with the MDAM module. Each configuration was subjected to 20 repeated experiments, and the average success rates of three critical stages were recorded: ``Touched Success Rate'', ``Alignment Success Rate'', and ``Insertion Success Rate''.
                         </p>
                     </div>
                 </div>
