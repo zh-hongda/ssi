@@ -133,5 +133,29 @@ body {
   font-size: smaller;
 }
 
+.blend-img-background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px; /* 或根据实际需要调整 */
+  width: 60%;
+  height: auto;
+}
 
+.interpolation-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; /* 或根据实际需要调整 */
+  width: 100%;
+  height: auto;
+}
 
+.video-small {
+  max-width: 640px;   /* 或 400px、30% 等，根据需要调整 */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
